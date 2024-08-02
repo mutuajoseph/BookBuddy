@@ -1,0 +1,16 @@
+FOLDER STRUCTURE 
+---> components folder
+---> hooks folder
+---> utils folder - middlware functions 
+---> constants folder - store all the constant properties 
+---> service folder- server? api requests 
+
+COMPONENT CREATION - make them more reusable 
+PASS DATA FROM ONE COMPONENT TO THE OTHER 
+------> PARENT TO CHILD COMMUNICATION
+------> CHILD TO PARENT COMMUNICATION
+
+
+--------next-week---------
+
+MAKING REQUEST WITHIN OUR APP

@@ -1,0 +1,92 @@
+export const booksData = [
+  {
+    title: "To Kill a Mockingbird",
+    author: "Harper Lee",
+    description:
+      "A novel about the serious issues of rape and racial inequality told through the eyes of a young girl.",
+    assignedHistory: [
+      {
+        user: "John Doe",
+        assignedDate: "2024-01-15",
+        returnedDate: "2024-02-15",
+      },
+      {
+        user: "Jane Smith",
+        assignedDate: "2024-03-01",
+        returnedDate: "2024-03-30",
+      },
+    ],
+  },
+  {
+    title: "1984",
+    author: "George Orwell",
+    description:
+      "A dystopian social science fiction novel and cautionary tale about the dangers of totalitarianism.",
+    assignedHistory: [
+      {
+        user: "Alice Johnson",
+        assignedDate: "2024-01-20",
+        returnedDate: "2024-02-20",
+      },
+      {
+        user: "Bob Brown",
+        assignedDate: "2024-03-10",
+        returnedDate: "2024-04-10",
+      },
+    ],
+  },
+  {
+    title: "Pride and Prejudice",
+    author: "Jane Austen",
+    description:
+      "A romantic novel that also critiques the British landed gentry at the end of the 18th century.",
+    assignedHistory: [
+      {
+        user: "Charlie Davis",
+        assignedDate: "2024-02-01",
+        returnedDate: "2024-03-01",
+      },
+      {
+        user: "Diana Evans",
+        assignedDate: "2024-04-01",
+        returnedDate: "2024-05-01",
+      },
+    ],
+  },
+  {
+    title: "The Great Gatsby",
+    author: "F. Scott Fitzgerald",
+    description:
+      "A novel that critiques the American Dream in a setting of decadent 1920s society.",
+    assignedHistory: [
+      {
+        user: "Edward Harris",
+        assignedDate: "2024-02-10",
+        returnedDate: "2024-03-10",
+      },
+      {
+        user: "Fiona Lewis",
+        assignedDate: "2024-03-20",
+        returnedDate: "2024-04-20",
+      },
+    ],
+  },
+  {
+    title: "Moby Dick",
+    author: "Herman Melville",
+    description:
+      "A novel about the obsessive quest of Ahab for revenge on Moby Dick, a white whale.",
+    assignedHistory: [
+      {
+        user: "George Miller",
+        assignedDate: "2024-01-25",
+        returnedDate: "2024-02-25",
+      },
+      {
+        user: "Helen Nelson",
+        assignedDate: "2024-03-15",
+        returnedDate: "2024-04-15",
+      },
+    ],
+  },
+];
