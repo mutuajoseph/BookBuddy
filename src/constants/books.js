@@ -53,40 +53,4 @@ export const booksData = [
       },
     ],
   },
-  {
-    title: "The Great Gatsby",
-    author: "F. Scott Fitzgerald",
-    description:
-      "A novel that critiques the American Dream in a setting of decadent 1920s society.",
-    assignedHistory: [
-      {
-        user: "Edward Harris",
-        assignedDate: "2024-02-10",
-        returnedDate: "2024-03-10",
-      },
-      {
-        user: "Fiona Lewis",
-        assignedDate: "2024-03-20",
-        returnedDate: "2024-04-20",
-      },
-    ],
-  },
-  {
-    title: "Moby Dick",
-    author: "Herman Melville",
-    description:
-      "A novel about the obsessive quest of Ahab for revenge on Moby Dick, a white whale.",
-    assignedHistory: [
-      {
-        user: "George Miller",
-        assignedDate: "2024-01-25",
-        returnedDate: "2024-02-25",
-      },
-      {
-        user: "Helen Nelson",
-        assignedDate: "2024-03-15",
-        returnedDate: "2024-04-15",
-      },
-    ],
-  },
 ];
