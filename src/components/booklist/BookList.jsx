@@ -1,8 +1,8 @@
 import { Box, Spinner, Text } from "@chakra-ui/react";
-import { booksData } from "../../constants";
 import { BookItem } from "../bookitem/BookItem";
 import { useState } from "react";
 import { useEffect } from "react";
+import { fetchAllBooks } from "../../services";
 
 export const BookList = () => {
   const [books, setBooks] = useState([]);
@@ -11,16 +11,20 @@ export const BookList = () => {
   useEffect(() => {
     // load the books
     // we are suppposed to update the state with the loaded books
-    fetchBooks();
+    handleBookFetch()
   }, []);
 
-  const fetchBooks = () => {
-    setLoading(true);
-    setTimeout(() => {
-      setBooks(booksData);
-      setLoading(false);
-    }, 10000);
-  };
+  const handleBookFetch =  async () => {
+    setLoading(true)
+  
+    const response = await fetchAllBooks()
+
+    if (response) {
+      setLoading(false)
+      setBooks(response)
+    }
+  }
+
 
   return (
     <Box p={"2rem"}>
